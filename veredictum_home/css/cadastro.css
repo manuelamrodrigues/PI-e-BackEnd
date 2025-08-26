@@ -89,8 +89,6 @@ a {
   width: 20%;
   height: 20%;
   margin-right: -20px;
-
-
 }
 
 .logo-title {
@@ -163,6 +161,7 @@ a {
   color: #F4A100;
   cursor: pointer;
 }
+
 
 
 @media (max-width: 1024px) {

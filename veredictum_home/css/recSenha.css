@@ -1,0 +1,130 @@
+body {
+  height: 100vh;
+  background: #222;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url('../imgs/img-cadastro.png');
+  /* background-image: url('./teste.jpg'); */
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.group-logo-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-row img {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.subtitle-logo {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.voltar-icon img {
+  width: 30px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.page-title{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.form {
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #000
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+
+.senha-form {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 80%;
+}
+
+
+.senha-form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+  
+}
+
+.senha-form input {
+  box-sizing: border-box;
+  width: 90%;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.salvar-btn {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  background: #F4A100;
+  color: #fff;
+  border: none;
+  /* padding: 12px 32px; */
+  border-radius: 8px;
+  width: 90%;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.salvar-btn:hover {
+  background: #9b9494;
+  color: #fff;
+}
